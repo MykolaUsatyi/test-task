@@ -1,0 +1,37 @@
+.table {
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #555;
+    margin-top: 10%;
+}
+
+.table-thead {
+    display: table-header-group;
+}
+
+.table-tbody {
+    display: table-row-group;
+}
+
+.table-tr {
+    display: table-row;
+
+}
+
+.table-th {
+    display: table-cell;
+    padding: 20px;
+    border: 1px solid #555;
+    font-weight: bold;
+    text-align: center;
+    background: #ccc;
+}
+
+.table-td {
+    display: table-cell;
+    padding: 20px;
+    border: 1px solid #555;
+    text-align: center;
+}
